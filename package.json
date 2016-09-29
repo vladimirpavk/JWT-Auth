@@ -1,0 +1,38 @@
+{
+  "name": "NodeJWTAuth",
+  "version": "0.0.0",
+  "description": "NodeJS autorization using JWTs and cookies",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cookies": "^0.6.1",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "morgan": "^1.7.0",
+    "njwt": "^0.3.0",
+    "node-uuid": "^1.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladimirpavk/NodeJWTAuth"
+  },
+  "keywords": [
+    "node",
+    "auth",
+    "user",
+    "permissions",
+    "jwt"
+  ],
+  "author": "Vladimir Pavković",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimirpavk/NodeJWTAuth/issues"
+  },
+  "homepage": "https://github.com/vladimirpavk/NodeJWTAuth"
+}
